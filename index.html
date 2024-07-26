@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+body{
+    overflow: hidden;
+    font-size: 100%;
+}
+.Lang{
+    background-color: #000; 
+    color: #ffffff; 
+    font-feature-settings: abvf ;
+    opacity: 0.4; 
+    height: 40px; 
+    width:100px;
+    border-radius: 0%;
+    position: absolute; top: 20px; right: 120px;
+    text-align: center; font-size: 18px; font-weight: 30%;
+    transition: 0.1s ease;
+}
+.Lang:hover{
+    background-color: rgb(32, 44, 34);
+    cursor: pointer;
+}
+
+.sign{
+    background-color: red;
+    height: 40px; width: 80px; 
+    font-size: 18px;
+    position: absolute; 
+    top: 20px; right: 1%; 
+    color: aliceblue;
+    transition: 0.5s ease;
+}
+.sign:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.mybutton{
+    position:absolute; 
+    top: 61%; 
+    left:60.5%; 
+    width: 135px; height: 50px;
+    font-size: 15px;font-weight: bold; 
+    color: #ffffff; 
+    background-color: red;
+    border: 4px solid red;
+    padding: 3px;
+    transition: 0.5s ease;
+}
+.mybutton:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.para1{
+    position: absolute;
+    text-size-adjust: text;
+    top: 24%;
+   right: 35vw;
+font-size: 3.5vw;
+font-family: sans-serif;
+font-weight: bolder;
+    color: #ffffff;
+    background-image: url(https://img.freepik.com/free-photo/2d-wallpaper-with-graphic-grainy-gradient-colors_23-2151001581.jpg);
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.para2{
+    line-height: 3.2vw;
+    position: absolute;
+    top: 34%;
+   right: 41vw;
+font-size: 3vw;
+font-weight: bolder;
+    color: #ffffff;
+    font-family: sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/2d-wallpaper-with-graphic-grainy-gradient-colors_23-2151001581.jpg);
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.para3{
+    position: absolute;
+    top: 44%;
+   right: 41vw;
+font-size: 1.6vw;
+font-weight: bolder;
+    color: #ffffff;
+    background-image: url(https://img.freepik.com/free-photo/2d-wallpaper-with-graphic-grainy-gradient-colors_23-2151001581.jpg);
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.para4{
+    min-width: 30px;
+    position: absolute;
+    top: 52%;
+    right: 37vw;
+    left: auto;
+    min-width: 30px;
+    border : 1px #ffffff;
+    font-display: flex;
+    font-size: 1.3vw;
+    color: #ffffff;
+    font-weight: bolder;
+    background-image: url(https://img.freepik.com/free-photo/2d-wallpaper-with-graphic-grainy-gradient-colors_23-2151001581.jpg);
+    background-position: center;
+   background-clip: text;
+   -webkit-background-clip: text; 
+   color: transparent;
+
+}
+    </style>
+</head>
+
+<body>
+
+    <img src="../hOMEPAGE/background.jpg" style=" border: 2px solid black;position: absolute; top: 0%; bottom: 0%; left: 0%; right: 0%;  filter: brightness(30%); min-height: 100%; min-width: none;">
+    <!-- <div
+      style="background-image: url(../hOMEPAGE/background.jpg); background-repeat: no-repeat;background-size: cover; height: 680px; width: 1538px; position: relative; background-attachment: fixed;margin-left: -10px; margin-right:-10px; margin-top: -10px;  filter: brightness(40%);">
+    </div> -->
+        <h1 style="color: red; font-size: 3.6vw;position: absolute; top:-1.6vw; left: 1vw;">NETFLIX
+        </h1>
+        <select class="Lang">
+            <option value="Language">English</option>
+            <option value="Language">Hindi</option>
+            <option value="Language">Tamil</option>
+            <option value="Language">Telugu</option>
+            <option value="Language">French</option>
+            <option value="Language">Italian</option>
+            <option value="Language">Arabic</option>
+            <option value="Language">Spanish</option>
+
+        </select>
+        <button class="sign">Sign in</button>
+
+    <input type="email"  placeholder="Email Adress" style="position: absolute; top: 60.5%; right:40%; width: 30vw; height: 45px; font-size: 20px;  border: 3px solid red; padding: 3px; text-align: center; flex-wrap: nowrap;"></input>
+
+<button class="mybutton">Get Started ></button>
+
+    <p class="para1">Unlimited movies, TV</p>
+    <p class="para2">shows and more.</p>
+    <p class="para3">Watch anywhere. Cancel anytime.</p>
+<p class="para4">Enter your Email to continue or restore your membership</p>
+
+</body>
+
+</html>
